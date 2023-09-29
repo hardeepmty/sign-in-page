@@ -1,0 +1,93 @@
+body{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app{
+  background-color: white;
+  width: 100%;
+  /* margin-top: 15%;
+  margin-left: 27%; */
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+.card{
+  padding: 5%;
+  background-color: white;
+  width: 100%;
+}
+
+a{
+  color: blue;
+}
+
+.desk{
+  width: 500px;
+}
+
+.heading{
+  padding: 0px;
+  display: flex;
+  align-items: flex-start;
+}
+.logo{
+  width: 150px;
+}
+.page{
+  display: flex;
+  background-color: white;
+  margin-top: 5%;
+}
+button{
+  opacity: 80%;
+  padding: 3%;
+  border-radius: 3%;
+  color: rgb(246, 244, 243);
+  border: none;
+  background-color: rgb(89, 117, 192);
+}
+button:hover{
+  cursor: pointer;
+  opacity: 100%;
+}
+
+a:hover{
+  cursor: pointer;
+}
+
+input{
+  padding: 2%;
+}
+
+input:hover{
+  border-color: rgb(41, 110, 170);
+}
+
+.message, .text{
+  color: red;
+}
+
+.alert{
+  color: rgb(140, 151, 151);
+}
+
+ @media all and (max-width:806px){
+  .page{
+    display: block;
+  }
+  .card{
+    margin-left: 5%;
+    width: 70%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  .desk{
+    width: 400px;
+  }
+  .app{
+    box-shadow: none;
+  }
+} 
